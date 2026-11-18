@@ -1,0 +1,7 @@
+# Scraper cache (raw HTML files must not be committed)
+cache/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/

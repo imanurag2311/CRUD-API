@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-11-18T17:01:24.984815+00:00",
+  "duration_seconds": 0.16,
+  "catalogue_pages_crawled": 3,
+  "detail_pages_fetched": 60,
+  "cache_hits": 63,
+  "live_requests": 0,
+  "valid_records": 60,
+  "invalid_records": 0,
+  "failed_pages": 1,
+  "target_site": "https://books.toscrape.com/",
+  "politeness": {
+    "user_agent": "FlyRankInternship-A9/1.0 (+https://github.com/anurag-yadav/CRUD_API)",
+    "min_delay_seconds": 0.5,
+    "timeout_seconds": 8.0,
+    "caching_enabled": true
+  },
+  "failures": [
+    {
+      "url": "https://books.toscrape.com/catalogue/non_existent_book_9999/index.html",
+      "status_code": 404,
+      "reason": "HTTP 404: Not Found",
+      "timestamp": "2026-11-18T17:01:25.057264+00:00"
+    }
+  ]
+}
