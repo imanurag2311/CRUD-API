@@ -1,0 +1,23 @@
+[project]
+name = "crud-api"
+version = "1.5.0"
+description = "FastAPI CRUD API & Polite Scraper Suite"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "fastapi-cloud-cli>=0.28.0",
+    "fastapi[standard]>=0.115.0",
+    "psycopg[binary]>=3.2.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "supabase>=2.33.0",
+]
+
+[tool.fastapi]
+entrypoint = "backend.main:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

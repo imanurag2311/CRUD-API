@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets (CRITICAL: never commit)
+.env
+
+# Testing & linting caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# SQLite runtime database (recreated automatically on startup)
+database/*.db
+
+# Scraper runtime cache (raw HTML files must not be committed)
+scraper/cache/

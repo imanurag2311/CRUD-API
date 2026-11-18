@@ -1,0 +1,8 @@
+fastapi[standard]
+pydantic
+psycopg[binary]
+python-dotenv
+supabase
+beautifulsoup4
+requests
+pytest
